@@ -1,0 +1,35 @@
+name: Discord Issue Notification
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          TITLE=$(echo '${{ github.event.issue.title }}' | sed 's/"/\\"/g')
+          URL="${{ github.event.issue.html_url }}"
+          USER="${{ github.event.issue.user.login }}"
+          LABELS=$(echo '${{ join(github.event.issue.labels.*.name, ', ') }}')
+          BODY=$(echo '${{ github.event.issue.body }}' | head -c 200 | sed 's/"/\\"/g' | tr '\n' ' ')
+
+          curl -s -H "Content-Type: application/json" \
+            -d "{
+              \"embeds\": [{
+                \"title\": \"${TITLE}\",
+                \"url\": \"${URL}\",
+                \"description\": \"${BODY}\",
+                \"color\": 5025616,
+                \"fields\": [
+                  {\"name\": \"ラベル\", \"value\": \"${LABELS:-なし}\", \"inline\": true},
+                  {\"name\": \"報告者\", \"value\": \"${USER}\", \"inline\": true}
+                ],
+                \"footer\": {\"text\": \"Minecraft Education 日本語翻訳\"}
+              }]
+            }" \
+            "$DISCORD_WEBHOOK"
