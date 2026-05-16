@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>問題報告 - Minecraft Education 日本語ワールド</title>
+  <style>
+    :root {
+      --green-primary: #4CAF50;
+      --green-dark: #388E3C;
+      --green-light: #C8E6C9;
+      --bg: #f5f5f0;
+      --card-bg: #ffffff;
+      --text: #2d2d2d;
+      --text-secondary: #666;
+      --border: #e0e0e0;
+      --shadow: 0 2px 8px rgba(0,0,0,0.1);
+      --radius: 8px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .header {
+      background: linear-gradient(135deg, var(--green-dark), #2E7D32);
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Crect width='6' height='6' x='0' y='0'/%3E%3Crect width='6' height='6' x='30' y='30'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .header h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      position: relative;
+    }
+
+    .header .back-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: rgba(255,255,255,0.85);
+      font-size: 0.85rem;
+      text-decoration: none;
+      position: relative;
+    }
+
+    .header .back-link:hover {
+      color: white;
+    }
+
+    .report-section {
+      max-width: 640px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .report-card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2rem;
+    }
+
+    .report-card .report-desc {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+    }
+
+    .github-note {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      background: #f9f9f5;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.6rem 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.2rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: var(--text);
+    }
+
+    .form-group label .required {
+      color: #d32f2f;
+      margin-left: 0.2rem;
+    }
+
+    .form-group select,
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.6rem 1rem;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-group select:focus,
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: var(--green-primary);
+    }
+
+    .form-group textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .form-group .error-msg {
+      font-size: 0.82rem;
+      color: #d32f2f;
+      margin-top: 0.3rem;
+      display: none;
+    }
+
+    .form-group.has-error select,
+    .form-group.has-error input,
+    .form-group.has-error textarea {
+      border-color: #d32f2f;
+    }
+
+    .form-group.has-error .error-msg {
+      display: block;
+    }
+
+    .submit-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.7rem 1.5rem;
+      background: var(--green-primary);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .submit-btn:hover {
+      background: var(--green-dark);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      border-top: 1px solid var(--border);
+    }
+
+    .footer a {
+      color: var(--green-dark);
+      text-decoration: none;
+    }
+
+    .footer a:hover { text-decoration: underline; }
+
+    @media (min-width: 640px) {
+      .header h1 { font-size: 1.6rem; }
+    }
+
+    @media (max-width: 480px) {
+      .report-card { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>フィードバック・問題報告</h1>
+  <a href="index.html" class="back-link">&larr; ワールド一覧に戻る</a>
+</div>
+
+<div class="report-section">
+  <div class="report-card">
+    <p class="report-desc">誤訳、文字化け、ワールド追加リクエスト、その他の要望を報告できます。</p>
+    <div class="github-note">
+      ※ 報告にはGitHubアカウントが必要です。送信ボタンを押すとGitHubのIssue作成画面に移動します。
+    </div>
+
+    <div class="form-group">
+      <label for="reportCategory">カテゴリ<span class="required">*</span></label>
+      <select id="reportCategory">
+        <option value="">選択してください</option>
+        <option value="translation-bug">誤訳・文字化け</option>
+        <option value="world-request">ワールド追加リクエスト</option>
+        <option value="other">その他の要望</option>
+      </select>
+      <div class="error-msg">カテゴリを選択してください</div>
+    </div>
+
+    <div class="form-group" id="worldSelectGroup" style="display:none;">
+      <label for="reportWorld">対象ワールド<span class="required">*</span></label>
+      <select id="reportWorld">
+        <option value="">選択してください</option>
+      </select>
+      <div class="error-msg">ワールドを選択してください</div>
+    </div>
+
+    <div class="form-group" id="worldInputGroup" style="display:none;">
+      <label for="reportWorldInput">追加してほしいワールド名<span class="required">*</span></label>
+      <input type="text" id="reportWorldInput" placeholder="英語のワールド名を入力">
+      <div class="error-msg">ワールド名を入力してください</div>
+    </div>
+
+    <div class="form-group" id="descriptionGroup" style="display:none;">
+      <label for="reportDescription">説明<span class="required">*</span></label>
+      <textarea id="reportDescription" placeholder="問題の詳細や要望を記入してください"></textarea>
+      <div class="error-msg">説明を入力してください</div>
+    </div>
+
+    <div class="form-group" id="expectedGroup" style="display:none;">
+      <label for="reportExpected">期待する修正（任意）</label>
+      <input type="text" id="reportExpected" placeholder="正しい翻訳や修正案があれば入力してください">
+    </div>
+
+    <button class="submit-btn" id="reportSubmit" style="display:none;" onclick="submitReport()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      GitHubでIssueを作成
+    </button>
+  </div>
+</div>
+
+<div class="footer">
+  <p>
+    <a href="index.html">ワールド一覧</a> &middot;
+    <a href="https://github.com/0x48lab/minecraft-edu-ja">GitHub</a>
+  </p>
+</div>
+
+<script>
+const REPO = "0x48lab/minecraft-edu-ja";
+let worlds = [];
+
+async function init() {
+  const res = await fetch("worlds.json");
+  worlds = await res.json();
+
+  const sel = document.getElementById("reportWorld");
+  worlds.forEach(w => {
+    const opt = document.createElement("option");
+    opt.value = w.title;
+    opt.textContent = `${w.title} (${w.title_en})`;
+    sel.appendChild(opt);
+  });
+  const otherOpt = document.createElement("option");
+  otherOpt.value = "__other__";
+  otherOpt.textContent = "その他（直接入力）";
+  sel.appendChild(otherOpt);
+}
+
+const categoryEl = document.getElementById("reportCategory");
+const worldSelectGroup = document.getElementById("worldSelectGroup");
+const worldInputGroup = document.getElementById("worldInputGroup");
+const descriptionGroup = document.getElementById("descriptionGroup");
+const expectedGroup = document.getElementById("expectedGroup");
+const submitBtn = document.getElementById("reportSubmit");
+
+categoryEl.addEventListener("change", () => {
+  const cat = categoryEl.value;
+  worldSelectGroup.style.display = "none";
+  worldInputGroup.style.display = "none";
+  descriptionGroup.style.display = "none";
+  expectedGroup.style.display = "none";
+  submitBtn.style.display = "none";
+  document.querySelectorAll(".form-group").forEach(g => g.classList.remove("has-error"));
+
+  if (cat === "translation-bug") {
+    worldSelectGroup.style.display = "block";
+    descriptionGroup.style.display = "block";
+    expectedGroup.style.display = "block";
+    submitBtn.style.display = "inline-flex";
+  } else if (cat === "world-request") {
+    worldInputGroup.style.display = "block";
+    descriptionGroup.style.display = "block";
+    submitBtn.style.display = "inline-flex";
+  } else if (cat === "other") {
+    descriptionGroup.style.display = "block";
+    submitBtn.style.display = "inline-flex";
+  }
+});
+
+function submitReport() {
+  const cat = categoryEl.value;
+  let valid = true;
+  document.querySelectorAll(".form-group").forEach(g => g.classList.remove("has-error"));
+
+  if (!cat) {
+    categoryEl.closest(".form-group").classList.add("has-error");
+    valid = false;
+  }
+
+  if (cat === "translation-bug" && !document.getElementById("reportWorld").value) {
+    worldSelectGroup.classList.add("has-error");
+    valid = false;
+  }
+
+  if (cat === "world-request" && !document.getElementById("reportWorldInput").value.trim()) {
+    worldInputGroup.classList.add("has-error");
+    valid = false;
+  }
+
+  const desc = document.getElementById("reportDescription").value.trim();
+  if (!desc) {
+    descriptionGroup.classList.add("has-error");
+    valid = false;
+  }
+
+  if (!valid) return;
+
+  let title = "", body = "", labels = "";
+  const expected = document.getElementById("reportExpected").value.trim();
+
+  if (cat === "translation-bug") {
+    const world = document.getElementById("reportWorld").value;
+    title = `[誤訳] ${world}: ${desc.substring(0, 30)}`;
+    labels = "bug,translation";
+    body = `## カテゴリ\n誤訳・文字化け\n\n## 対象ワールド\n${world}\n\n## 問題の説明\n${desc}`;
+    if (expected) body += `\n\n## 期待する修正\n${expected}`;
+  } else if (cat === "world-request") {
+    const worldInput = document.getElementById("reportWorldInput").value.trim();
+    title = `[リクエスト] ${worldInput}`;
+    labels = "enhancement";
+    body = `## カテゴリ\nワールド追加リクエスト\n\n## 追加してほしいワールド\n${worldInput}\n\n## 理由・詳細\n${desc}`;
+  } else if (cat === "other") {
+    title = `[要望] ${desc.substring(0, 50)}`;
+    labels = "feedback";
+    body = `## カテゴリ\nその他の要望\n\n## 内容\n${desc}`;
+  }
+
+  body += `\n\n---\n*このIssueはフィードバックフォームから作成されました*`;
+
+  const url = `https://github.com/${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=${encodeURIComponent(labels)}`;
+  window.open(url, "_blank");
+}
+
+init();
+</script>
+</body>
+</html>
