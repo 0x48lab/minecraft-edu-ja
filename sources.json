@@ -35,6 +35,20 @@
         "noCodingRequired",
         "tutorialDone"
       ]
+    },
+    "ai-sustainable-farming": {
+      "name": "AI Sustainable Farming",
+      "name_ja": "AI 持続可能な農業",
+      "original_tutorials": "github:fountainstudios/aimakecodemarkdown",
+      "original_custom_blocks": "github:fountainstudios/AICustomBlocks",
+      "tutorials": [
+        "SustainableFarming_ACT1",
+        "SustainableFarming_ACT2",
+        "SustainableFarming_ACT3",
+        "SustainableFarming_ACT4",
+        "noCodingRequired",
+        "tutorialDone"
+      ]
     }
   },
   "custom_blocks": {

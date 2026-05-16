@@ -30,5 +30,21 @@
     "filename": "AI Mapping Terrain.mcworld",
     "version": "1.0.0",
     "translated_date": "2026-05-16"
+  },
+  {
+    "id": "ai-sustainable-farming",
+    "title": "AI 持続可能な農業",
+    "title_en": "AI Sustainable Farming",
+    "description": "辺境の村で衛星データとAIの予測分析を使い、最適な農地を特定する。データセット作成、データ比較、予測分析を体験する。",
+    "subject": "AI・持続可能な農業",
+    "tags": ["AI", "機械学習", "予測分析", "持続可能な農業", "衛星データ"],
+    "activities": 4,
+    "coding_activities": 2,
+    "age_group": "中学生〜高校生",
+    "original_author": "Fountain Studios",
+    "original_repo": "fountainstudios/aimakecodemarkdown",
+    "filename": "AI Sustainable Farming.mcworld",
+    "version": "1.0.0",
+    "translated_date": "2026-05-16"
   }
 ]
