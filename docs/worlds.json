@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ai-pattern-recognition",
+    "title": "AI パターン認識",
+    "title_en": "AI Pattern Recognition",
+    "description": "サバンナでオセロットの移動パターンをAIで追跡する。写真データセットの作成、パターン抽出、機械学習による追跡を学ぶ。",
+    "subject": "AI・機械学習",
+    "tags": ["AI", "機械学習", "パターン認識", "データサイエンス", "動物保全"],
+    "activities": 4,
+    "coding_activities": 2,
+    "age_group": "中学生〜高校生",
+    "original_author": "Fountain Studios",
+    "original_repo": "fountainstudios/aimakecodemarkdown",
+    "filename": "AI Pattern Recognition.mcworld",
+    "version": "1.0.0",
+    "translated_date": "2026-05-16"
+  }
+]
