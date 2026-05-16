@@ -413,7 +413,9 @@ function matchesFilter(world) {
 }
 
 function getDownloadUrl(world) {
-  return `https://github.com/${REPO}/releases/latest/download/${encodeURIComponent(world.filename)}`;
+  // GitHub Release converts spaces in filenames to dots
+  const assetName = world.filename.replace(/ /g, ".");
+  return `https://github.com/${REPO}/releases/latest/download/${assetName}`;
 }
 
 function render() {
