@@ -213,6 +213,7 @@
         <option value="">選択してください</option>
         <option value="translation-bug">誤訳・文字化け</option>
         <option value="world-request">ワールド追加リクエスト</option>
+        <option value="tag-suggestion">タグ・分類の提案</option>
         <option value="other">その他の要望</option>
       </select>
       <div class="error-msg">カテゴリを選択してください</div>
@@ -303,6 +304,11 @@ categoryEl.addEventListener("change", () => {
     worldInputGroup.style.display = "block";
     descriptionGroup.style.display = "block";
     submitBtn.style.display = "inline-flex";
+  } else if (cat === "tag-suggestion") {
+    worldSelectGroup.style.display = "block";
+    descriptionGroup.style.display = "block";
+    submitBtn.style.display = "inline-flex";
+    document.getElementById("reportDescription").placeholder = "追加・変更したいタグや分類を記入してください（例：対象年齢、教科など）";
   } else if (cat === "other") {
     descriptionGroup.style.display = "block";
     submitBtn.style.display = "inline-flex";
@@ -319,7 +325,7 @@ function submitReport() {
     valid = false;
   }
 
-  if (cat === "translation-bug" && !document.getElementById("reportWorld").value) {
+  if ((cat === "translation-bug" || cat === "tag-suggestion") && !document.getElementById("reportWorld").value) {
     worldSelectGroup.classList.add("has-error");
     valid = false;
   }
@@ -351,6 +357,11 @@ function submitReport() {
     title = `[リクエスト] ${worldInput}`;
     labels = "enhancement";
     body = `## カテゴリ\nワールド追加リクエスト\n\n## 追加してほしいワールド\n${worldInput}\n\n## 理由・詳細\n${desc}`;
+  } else if (cat === "tag-suggestion") {
+    const world = document.getElementById("reportWorld").value;
+    title = `[タグ提案] ${world}: ${desc.substring(0, 30)}`;
+    labels = "enhancement";
+    body = `## カテゴリ\nタグ・分類の提案\n\n## 対象ワールド\n${world}\n\n## 提案内容\n${desc}`;
   } else if (cat === "other") {
     title = `[要望] ${desc.substring(0, 50)}`;
     labels = "feedback";

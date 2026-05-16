@@ -362,57 +362,79 @@
 <script>
 const REPO = "0x48lab/minecraft-edu-ja";
 let worlds = [];
-let activeFilters = new Set();
+let activeTagFilters = new Set();
+let codingFilter = null; // null=all, true=coding only, false=no coding
 
 async function init() {
   const res = await fetch("worlds.json");
   worlds = await res.json();
   buildFilters();
   render();
-
   document.getElementById("searchInput").addEventListener("input", render);
 }
 
 function buildFilters() {
-  const subjects = [...new Set(worlds.map(w => w.subject))];
+  const allTags = [...new Set(worlds.flatMap(w => w.tags))].sort();
   const group = document.getElementById("filterGroup");
 
-  // "all" button
-  const allBtn = document.createElement("button");
-  allBtn.className = "filter-btn active";
-  allBtn.textContent = "すべて";
-  allBtn.dataset.filter = "__all__";
+  const allBtn = mkBtn("すべて", "__all__", true);
   allBtn.addEventListener("click", () => {
-    activeFilters.clear();
+    activeTagFilters.clear();
+    codingFilter = null;
     document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
     allBtn.classList.add("active");
     render();
   });
   group.appendChild(allBtn);
 
-  subjects.forEach(subject => {
-    const btn = document.createElement("button");
-    btn.className = "filter-btn";
-    btn.textContent = subject;
-    btn.dataset.filter = subject;
-    btn.addEventListener("click", () => {
-      const allBtnEl = group.querySelector('[data-filter="__all__"]');
-      if (activeFilters.has(subject)) {
-        activeFilters.delete(subject);
-        btn.classList.remove("active");
-      } else {
-        activeFilters.add(subject);
-        btn.classList.add("active");
-      }
-      if (activeFilters.size === 0) {
-        allBtnEl.classList.add("active");
-      } else {
-        allBtnEl.classList.remove("active");
-      }
-      render();
-    });
+  allTags.forEach(tag => {
+    const btn = mkBtn(tag, tag, false);
+    btn.addEventListener("click", () => toggleTag(btn, tag));
     group.appendChild(btn);
   });
+
+  const codingBtn = mkBtn("コーディングあり", "__coding__", false);
+  codingBtn.addEventListener("click", () => {
+    if (codingFilter === true) {
+      codingFilter = null;
+      codingBtn.classList.remove("active");
+    } else {
+      codingFilter = true;
+      codingBtn.classList.add("active");
+    }
+    syncAllBtn();
+    render();
+  });
+  group.appendChild(codingBtn);
+}
+
+function mkBtn(text, filter, active) {
+  const btn = document.createElement("button");
+  btn.className = "filter-btn" + (active ? " active" : "");
+  btn.textContent = text;
+  btn.dataset.filter = filter;
+  return btn;
+}
+
+function toggleTag(btn, tag) {
+  if (activeTagFilters.has(tag)) {
+    activeTagFilters.delete(tag);
+    btn.classList.remove("active");
+  } else {
+    activeTagFilters.add(tag);
+    btn.classList.add("active");
+  }
+  syncAllBtn();
+  render();
+}
+
+function syncAllBtn() {
+  const allBtn = document.querySelector('[data-filter="__all__"]');
+  if (activeTagFilters.size === 0 && codingFilter === null) {
+    allBtn.classList.add("active");
+  } else {
+    allBtn.classList.remove("active");
+  }
 }
 
 function matchesSearch(world, query) {
@@ -423,18 +445,19 @@ function matchesSearch(world, query) {
     world.title_en.toLowerCase().includes(q) ||
     world.description.toLowerCase().includes(q) ||
     world.tags.some(t => t.toLowerCase().includes(q)) ||
-    world.subject.toLowerCase().includes(q) ||
-    (world.original_author && world.original_author.toLowerCase().includes(q))
+    (world.author && world.author.toLowerCase().includes(q))
   );
 }
 
 function matchesFilter(world) {
-  if (activeFilters.size === 0) return true;
-  return activeFilters.has(world.subject);
+  if (activeTagFilters.size > 0) {
+    if (!world.tags.some(t => activeTagFilters.has(t))) return false;
+  }
+  if (codingFilter === true && !world.has_coding) return false;
+  return true;
 }
 
 function getDownloadUrl(world) {
-  // GitHub Release converts spaces in filenames to dots
   const assetName = world.filename.replace(/ /g, ".");
   return `https://github.com/${REPO}/releases/latest/download/${assetName}`;
 }
@@ -464,38 +487,34 @@ function render() {
             <div class="card-title">${esc(w.title)}</div>
             <div class="card-title-en">${esc(w.title_en)}</div>
           </div>
-          <span class="card-subject">${esc(w.subject)}</span>
+          ${w.has_coding ? '<span class="card-subject">コーディングあり</span>' : ''}
         </div>
         <div class="card-description">${esc(w.description)}</div>
         <div class="card-meta">
-          <span>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
-            ${w.activities} アクティビティ（コーディング ${w.coding_activities}）
-          </span>
-          <span>
+          ${w.author ? `<span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-            ${esc(w.age_group)}
-          </span>
+            ${esc(w.author)}
+          </span>` : ''}
           <span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
             ${esc(w.translated_date)}
           </span>
         </div>
-        <div class="card-tags">
+        ${w.tags.length > 0 ? `<div class="card-tags">
           ${w.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}
-        </div>
+        </div>` : ''}
         <div class="card-actions">
           <a href="${getDownloadUrl(w)}" class="download-btn" download>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
             ダウンロード (.mcworld)
           </a>
-          <a href="https://github.com/${esc(w.original_repo)}" class="source-link" target="_blank" rel="noopener">元のリポジトリ</a>
         </div>
       </div>
     </div>`).join("");
 }
 
 function esc(s) {
+  if (!s) return "";
   const d = document.createElement("div");
   d.textContent = s;
   return d.innerHTML;
