@@ -1,0 +1,30 @@
+{
+  "lessons": {
+    "ai-pattern-recognition": {
+      "name": "AI Pattern Recognition",
+      "name_ja": "AI パターン認識",
+      "original_tutorials": "github:fountainstudios/aimakecodemarkdown",
+      "original_custom_blocks": "github:fountainstudios/AICustomBlocks",
+      "tutorials": [
+        "PatternRecognition_ACT1",
+        "PatternRecognition_ACT2",
+        "PatternRecognition_ACT3",
+        "PatternRecognition_ACT4",
+        "noCodingRequired",
+        "tutorialDone"
+      ],
+      "additional_tutorials_in_original": [
+        "MappingTerrain_ACT1",
+        "MappingTerrain_ACT2",
+        "MappingTerrain_ACT2B",
+        "MappingTerrain_ACT3",
+        "MappingTerrain_ACT3B",
+        "MappingTerrain_ACT4"
+      ]
+    }
+  },
+  "custom_blocks": {
+    "original": "github:fountainstudios/AICustomBlocks",
+    "translated": "github:0x48lab/minecraft-edu-ja/custom-blocks"
+  }
+}

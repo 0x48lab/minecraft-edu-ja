@@ -1,0 +1,24 @@
+{
+    "name": "ai-pattern-recognition-ja",
+    "dependencies": {
+        "core": "*",
+        "aicustomblocks": "github:0x48lab/minecraft-edu-ja/custom-blocks"
+    },
+    "files": [
+        "PatternRecognition_ACT1.md",
+        "PatternRecognition_ACT2.md",
+        "PatternRecognition_ACT3.md",
+        "PatternRecognition_ACT4.md",
+        "noCodingRequired.md",
+        "tutorialDone.md"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "1.5.49",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}

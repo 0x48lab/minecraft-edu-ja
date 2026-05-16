@@ -1,0 +1,18 @@
+{
+    "name": "aicustomblocks",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "AIBlocks.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "1.5.49",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
