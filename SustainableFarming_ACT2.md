@@ -30,5 +30,5 @@ Datasets.setOfData_SF(datasetType.historical, function() {})
 ```
 
 ```package
-aicustomblocks=github:0x48lab/minecraft-edu-ja-blocks
+aicustomblocks=github:fountainstudios/AICustomBlocks
 ```

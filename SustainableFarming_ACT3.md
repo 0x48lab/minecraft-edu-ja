@@ -32,5 +32,5 @@ Output.locateFarm_SF()
 ```
 
 ```package
-aicustomblocks=github:0x48lab/minecraft-edu-ja-blocks
+aicustomblocks=github:fountainstudios/AICustomBlocks
 ```
