@@ -1,0 +1,29 @@
+{
+    "name": "minecraft-edu-ja",
+    "version": "1.1.0",
+    "dependencies": {
+        "core": "*",
+        "aicustomblocks": "github:0x48lab/minecraft-edu-ja/custom-blocks"
+    },
+    "files": [
+        "PatternRecognition_ACT1.md",
+        "PatternRecognition_ACT2.md",
+        "PatternRecognition_ACT3.md",
+        "PatternRecognition_ACT4.md",
+        "MappingTerrain_ACT1.md",
+        "MappingTerrain_ACT2B.md",
+        "MappingTerrain_ACT3B.md",
+        "MappingTerrain_ACT4.md",
+        "noCodingRequired.md",
+        "tutorialDone.md"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "1.5.50",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
