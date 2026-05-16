@@ -1,0 +1,24 @@
+{
+    "name": "ai-mapping-terrain",
+    "version": "1.0.0",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "MappingTerrain_ACT1.md",
+        "MappingTerrain_ACT2B.md",
+        "MappingTerrain_ACT3B.md",
+        "MappingTerrain_ACT4.md",
+        "noCodingRequired.md",
+        "tutorialDone.md"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "1.5.50",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}

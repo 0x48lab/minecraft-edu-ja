@@ -21,6 +21,20 @@
         "MappingTerrain_ACT3B",
         "MappingTerrain_ACT4"
       ]
+    },
+    "ai-mapping-terrain": {
+      "name": "AI Mapping Terrain",
+      "name_ja": "AI 地形マッピング",
+      "original_tutorials": "github:fountainstudios/aimakecodemarkdown",
+      "original_custom_blocks": "github:fountainstudios/AICustomBlocks",
+      "tutorials": [
+        "MappingTerrain_ACT1",
+        "MappingTerrain_ACT2B",
+        "MappingTerrain_ACT3B",
+        "MappingTerrain_ACT4",
+        "noCodingRequired",
+        "tutorialDone"
+      ]
     }
   },
   "custom_blocks": {

@@ -14,5 +14,21 @@
     "filename": "AI Pattern Recognition.mcworld",
     "version": "1.0.0",
     "translated_date": "2026-05-16"
+  },
+  {
+    "id": "ai-mapping-terrain",
+    "title": "AI 地形マッピング",
+    "title_en": "AI Mapping Terrain",
+    "description": "ヘリコプターで森の上空を飛び、AIを使って違法伐採や病気の発生エリアを検出する。データセット作成、機械学習による異常検出、現地調査を体験する。",
+    "subject": "AI・機械学習",
+    "tags": ["AI", "機械学習", "地形マッピング", "環境保全", "異常検出"],
+    "activities": 4,
+    "coding_activities": 2,
+    "age_group": "中学生〜高校生",
+    "original_author": "Fountain Studios",
+    "original_repo": "fountainstudios/aimakecodemarkdown",
+    "filename": "AI Mapping Terrain.mcworld",
+    "version": "1.0.0",
+    "translated_date": "2026-05-16"
   }
 ]
