@@ -29,5 +29,5 @@ Datasets.setOfData_PR(datasetType.historical, function() {})
 ```
 
 ```package
-aicustomblocks=github:0x48lab/minecraft-edu-ja/custom-blocks
+aicustomblocks=github:0x48lab/minecraft-edu-ja-blocks
 ```

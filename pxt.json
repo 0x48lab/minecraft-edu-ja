@@ -3,7 +3,7 @@
     "version": "1.2.0",
     "dependencies": {
         "core": "*",
-        "aicustomblocks": "github:0x48lab/minecraft-edu-ja/custom-blocks"
+        "aicustomblocks": "github:0x48lab/minecraft-edu-ja-blocks"
     },
     "files": [
         "PatternRecognition_ACT1.md",
