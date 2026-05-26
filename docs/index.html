@@ -472,8 +472,8 @@ function matchesFilter(world) {
 }
 
 function getDownloadUrl(world) {
-  // GitHub Release replaces spaces and special chars with dots, strips non-ASCII
-  const assetName = world.filename.replace(/[^a-zA-Z0-9._-]/g, ".").replace(/\.{2,}/g, ".");
+  // Use explicit asset_name from worlds.json if available, otherwise auto-convert
+  const assetName = world.asset_name || world.filename.replace(/[^a-zA-Z0-9._-]/g, ".").replace(/\.{2,}/g, ".");
   return `https://github.com/${REPO}/releases/latest/download/${assetName}`;
 }
 
