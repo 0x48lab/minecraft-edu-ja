@@ -517,5 +517,17 @@
     "filename": "The Mindful Knight.mcworld",
     "asset_name": "The.Mindful.Knight.mcworld",
     "translated_date": "2026-05-26"
+  },
+  {
+    "id": "planet-earth-iii",
+    "title": "プラネット・アース III",
+    "title_en": "Planet Earth III",
+    "description": "BBC「プラネット・アースIII」とのコラボ。サメ・オオカミ・ヒョウなどの動物になって地球の多様な生態系を冒険する。",
+    "tags": ["冒険", "科学"],
+    "has_coding": false,
+    "author": "Shapescape",
+    "filename": "Planet Earth III.mcworld",
+    "asset_name": "Planet.Earth.III.mcworld",
+    "translated_date": "2026-05-26"
   }
 ]
