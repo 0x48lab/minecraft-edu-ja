@@ -1,0 +1,9 @@
+pack.name=キャンプ場を作ろう
+pack.description=キャンプ場建築チャレンジ
+
+NPC.Text=ようこそ！ 道をたどって空いているキャンプ場を見つけよう。暗くなる前にキャンプ場を準備してね。
+Ranger.Sign=レンジャーステーション
+Welcome.Sign.1=キャンパーのみなさん、ようこそ！
+Welcome.Sign.2=キャンプ場を選んで建築をはじめよう。
+Campsite.Sign=キャンプ場
+Campsite.Sign.Plural=キャンプ場

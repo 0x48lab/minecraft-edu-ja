@@ -1,0 +1,104 @@
+## Pack ##
+
+pack.name=レッスン リソースパック
+pack.description=レッスンに必要なリソースパック
+
+## NPC Names ##
+
+NPC.name.agent=エージェント
+NPC.name.activity1=アクティビティ 1 - パイロット
+NPC.name.activity2=アクティビティ 2 - データサイエンティスト
+NPC.name.activity3=アクティビティ 3 - 機械学習エンジニア
+NPC.name.activity4=アクティビティ 4 - 生物学者
+NPC.button.reset=§lリセット§r
+
+NPC.button.tryagain=§l§2もう一度やってみよう§r
+
+## Default Titles ##
+
+activity2.title.map=§6データセット完了！§r
+activity.title.pass=§6おめでとう！§r
+activity.title.incorrect=§6不正解§r
+activity.title.right=§6正解§r
+
+activity.subtitle.incorrect=もう一度やってみよう。
+
+activity.subtitle.part2=パート 2 に進もう。
+activity.subtitle.part3=パート 3 に進もう。
+
+activity.1of2.activity1=アクティビティ 1/2 完了。
+activity.2of2.activity3=レッスン完了。
+
+activity.1of3.activity1=アクティビティ 1/3 完了。
+activity.2of3.activity2=アクティビティ 2/3 完了。
+activity.3of3.activity3=レッスン完了。
+
+activity.1of4.activity1=アクティビティ 1/4 完了。
+activity.2of4.activity2=アクティビティ 2/4 完了。
+activity.3of4.activity3=アクティビティ 3/4 完了。
+activity.4of4.activity4=レッスン完了。
+
+activity3.title.map=§6異常のある2つの場所を発見！§r
+
+activity1.title.location1=§6場所 1§r
+activity1.title.location2=§6場所 2§r
+activity1.title.location3=§6場所 3§r
+
+activity4.title.location1=§6違法伐採現場。§r
+activity4.title.location2=§6病気の発生エリア。§r
+activity4.title.location1pass=§6エリアの封鎖に成功しました。§r
+activity4.title.location2pass=§6エリアの封鎖に成功しました。§r
+
+## Actionbar text ##
+
+start.actionbar.first=§l§fパイロットに話しかけよう。§r
+
+activity1.actionbar.pilot1=§l§fヘリコプターに乗り込もう。§r
+activity1.actionbar.pilot2=§l§f森の写真を撮って、ボタンを押そう。§r
+activity1.actionbar.pass1=§l§fテントに行ってデータサイエンティストに話しかけよう。§r
+
+activity2.actionbar.data1=§l§f[C]を押してコードを書こう。§r
+activity2.actionbar.pass2=§l§f機械学習エンジニアに話しかけよう。§r
+
+activity3.actionbar.main=§l§f[C]を押してコードを書こう。§r
+activity3.actionbar.pass=§l§f生物学者に話しかけよう。§r
+
+activity4.actionbar.main=§l§fジープに乗り込もう。§r
+activity4.actionbar.location1=§l§f生物学者に話しかけよう。§r
+activity4.actionbar.banners=§l§fバナーを金ブロックの上に置こう。§r
+activity4.actionbar.location1pass=§l§fジープに乗り込もう。§r
+activity4.actionbar.location2=§l§f生物学者に話しかけよう。§r
+activity4.actionbar.location2pass=§l§fジープに乗り込もう。§r
+activity4.actionbar.pass=§l§fレッスン終了。§r
+activity4.actionbar.reset=§l§fもう一度やってみよう。§r
+
+## NPC Text ##
+
+activity1.npc.line1=周辺の森の上空を飛んで写真を撮る必要があります。その写真は、病気や違法伐採を自動検出するAIに使われます。ヘリコプターにはカメラが内蔵されていますが、データセット用のデータをできるだけ多く集めるために、あなた自身のカメラでも写真を撮ってください。
+
+activity12.npc.line1=AIが使うデータセット用の写真を撮りましょう！終わったら、ヘリコプター後方の黄色いブロックのボタンを押してください。
+
+activity2.npc.line1=周辺の森の十分なデータを集めたので、次はそれをデータセットにコーディングする必要があります。各場所のすべての写真をデータセットにインポートしてください。正しくできれば、周辺の森全体の地図がコンパイルされて表示されます。
+
+activity3.npc.line1=こんにちは！AIをコーディングして、データセットから病気が広がっている場所や違法伐採が行われている場所を探しましょう。
+
+activity41.npc.line1=AIが正しかったか確認するために、見つかった場所に行く必要があります。ジープに乗り込んで、地図上のマークされたエリアに行きましょう！
+
+activity42.npc.line1=AIの判断は正しかったようです。ここでは違法伐採が行われています。ジープの後ろのチェストからバナーを取り、エリア周囲の金ブロックの上に置いて封鎖しましょう。
+
+activity43.npc.line1=AIの判断はまたしても正しかったようです。ここでは木の病気が発生しています。ジープの後ろのチェストからバナーを取り、エリア周囲の金ブロックの上に置いて封鎖しましょう。
+
+## Signs ##
+sign.one.activity2=§lデータをインポート中...
+sign.two.activity3=§lAIでデータセットをスキャン中...
+activity.npc.reset=§lレッスンをリセット
+
+## Board Text ##
+
+activity1.board.line1=    Minecraft Python関数の構造
+activity1.board.line2=    関数を作る/定義する
+activity1.board.line3=    def function_name():
+activity1.board.line4=       my code
+activity1.board.line5=       my code
+activity1.board.line6=    関数を使う/呼び出す
+activity1.board.line7=    function_name()

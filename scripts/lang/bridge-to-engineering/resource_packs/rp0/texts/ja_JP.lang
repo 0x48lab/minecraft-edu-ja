@@ -1,0 +1,16 @@
+pack.name=橋をかけよう
+pack.description=橋の作り方を学ぼう！
+
+item.spawn_egg.entity.lb_bd:engineer_npc.name=土木エンジニアNPC
+
+## *ボード 1
+entity.board_1.name=ボード 1
+item.spawn_egg.entity.lb_bd:board_1.name=ボード 1 スポーンエッグ
+
+## *ボード 2
+entity.board_2.name=ボード 2
+item.spawn_egg.entity.lb_bd:board_2.name=ボード 2 スポーンエッグ
+
+## *ボード 3
+entity.board_3.name=ボード 3
+item.spawn_egg.entity.lb_bd:board_3.name=ボード 3 スポーンエッグ

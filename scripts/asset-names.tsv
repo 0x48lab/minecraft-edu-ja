@@ -1,0 +1,53 @@
+# Minecraft Education .mcworld ファイル名 → GitHub Release アセット名 マッピング
+# 形式: <originals/ 内のファイル名（拡張子なし）>\t<Release アセット名（拡張子なし）>
+#
+# ルール:
+#   1. 英語名のワールド: スペース→ドット, 特殊文字(' : &)→削除, 連続ドット→1つに正規化
+#   2. 日本語名のワールド: 公式英語名に変換してから上記ルール適用
+#   3. 拡張子 .mcworld は自動付与（このファイルには書かない）
+#
+# 日本語名ワールド（公式英語名マッピング）
+レッドストーン マンション	Redstone.Mansion
+凍った惑星 II 凍った世界	Frozen.Planet.II.Frozen.Worlds
+凍った惑星 II: 凍った大地	Frozen.Planet.II.Frozen.Lands
+凍った惑星 II: 凍った山頂	Frozen.Planet.II.Frozen.Peaks
+凍った惑星 II: 凍った海	Frozen.Planet.II.Frozen.Ocean
+比率の謎	Ratio.Riddles
+無人島	Desert.Island
+町のテンプレート	Town.Template
+草ブロック	Blocks.of.Grass
+3.0A.1 パルクールの繰り返しによる加算	3.0A.1.Repeated.Addition.with.Parkour
+# 英語名ワールド（自動変換）
+AI Job Fair	AI.Job.Fair
+AI Mapping Terrain	AI.Mapping.Terrain
+AI Ocean Observations	AI.Ocean.Observations
+AI Pattern Recognition	AI.Pattern.Recognition
+AI Sustainable Farming	AI.Sustainable.Farming
+AI Water Quality	AI.Water.Quality
+Binary Builders	Binary.Builders
+Blockbeard's Gold Race v1.0	Blockbeard.s.Gold.Race.v1.0
+Bridge to Engineering	Bridge.to.Engineering
+Build a Moat	Build.a.Moat
+Build A Plane	Build.A.Plane
+Build a Simple House	Build.a.Simple.House
+Building with Dinosaurs	Building.with.Dinosaurs
+C2C - Pirate Cove	C2C.Pirate.Cove
+Camp Out	Camp.Out
+Cloud Community	Cloud.Community
+Creative Coliseum	Creative.Coliseum
+Cyber FUNdamentals	Cyber.FUNdamentals
+CyberSafe AI: Dig Deeper	CyberSafe.AI.Dig.Deeper
+Fantastic Fairgrounds	Fantastic.Fairgrounds
+Frozen South	Frozen.South
+Hour of Code: AI 世代	Hour.of.Code.AI
+Ireland Build Challange	Ireland.Build.Challange
+Litcraft - Treasure Island - Core 2023	Litcraft.Treasure.Island.Core.2023
+M.A.T.H. Mummy Mayhem	M.A.T.H.Mummy.Mayhem
+M&M - Pirate Cove	MM.Pirate.Cove
+M&M - Practice Plaza - x12	MM.Practice.Plaza.x12
+Mushroom Mission	Mushroom.Mission
+Peter is Here	Peter.is.Here
+Space Race	Space.Race
+Splat Racers	Splat.Racers
+The Investigators	The.Investigators
+The Mindful Knight	The.Mindful.Knight

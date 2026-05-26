@@ -1,0 +1,88 @@
+pack.name=AI ジョブフェア
+pack.description=AI ジョブフェア リソース
+
+entity.ben:blue_4x4.name=青い車
+entity.ben:red_4x4.name=赤い車
+entity.ben:npc.name=TrueNPC
+item.spawn_egg.entity.ben:npc.name=TrueNPCをスポーン
+item.spawn_egg.entity.ben:blue_4x4.name=青い車をスポーン
+item.spawn_egg.entity.ben:red_4x4.name=赤い車をスポーン
+action.hint.exit.ben:blue_4x4=スペースキーで車から降りる
+action.hint.exit.ben:red_4x4=スペースキーで車から降りる
+
+
+## NPC NAMES
+entity.NPC1.name=§3エイデン
+entity.NPC2.name=§3イザベル
+entity.NPC3.name=§3ソフィア
+entity.NPC4.name=§3ラジ
+entity.NPC5.name=§3サンティアゴ
+entity.NPC6.name=§3メイ
+entity.NPC7.name=§3?
+entity.NPC8.name=§3?
+entity.NPC9.name=§3?
+entity.NPC10.name=§3?
+entity.NPC11.name=§3?
+entity.NPC12.name=§3?
+entity.TpBot.name=§3テレポートボット
+
+
+
+## NPC DIALOGUES
+
+## NPC1Dialogue (Info Person)
+dialogue.NPC1=やあ！街で開催されるAIジョブフェアの者だよ！街のいろんな仕事でAIがどう使われているか、展示を作るのを手伝ってくれないかな？
+dialogue.NPC12=すごい！テレポートボットのところに行けば、街まで連れて行ってくれるよ。そこでイザベルがもっと詳しく教えてくれるからね。頑張って、楽しんで！
+
+## NPC Dialogue (Exhibition)
+dialogue.NPC2=こんにちは！来てくれてうれしいわ。展示を作り始める前に、庭園のソフィア、病院のラジ、交通ハブのサンティアゴ、美術館のメイに会いに行ってみて。みんな、この街でAIがどう使われているか、たくさん見せてくれるわよ！
+dialogue.NPC22=ジョブフェアの開場まではまだ時間があるから、街を探検してみてね。テレポートボットを使ったり、車に乗ったりできるわ。4人全員に話を聞いたら、また私のところに来てね！
+dialogue.NPC23=みんなに話を聞いたのね。では、ジョブフェアの展示を作りましょう！みんなから学んだことを全部盛り込んで、世界中に見せられるように展示してね！完成したら教えてね。
+dialogue.NPC24=わあ、すごい建築ね！写真を撮ってポートフォリオに入れたら、盛大にオープンしましょう！
+dialogue.NPC25=素晴らしい建築ね。もっと建てたいなら、教えてね。
+
+## NPC3 Dialogue (Garden)
+dialogue.NPC3=AIは園芸のいろんな場面で役立つの。土をチェックして植物に水が必要かどうかを確認したり、いつ水をあげればいいか教えてくれたりするわ。植物の写真を見て健康かどうか、病気がないかも判断できるの。天気を予測して、種まきや収穫の最適なタイミングを教えてくれることもあるのよ。
+
+## NPC4 Dialogue (Hospital)
+dialogue.NPC4=AIは病院ではとても賢いアシスタントなんだ。レントゲンなどの医療画像を分析して、医者が病気を診断するのをもっと速く正確に手助けしてくれる。手術ではAI搭載のロボットが精密な動きをして、繊細な手術をより安全にしてくれるんだ。AIで動くバーチャルナースは、患者の質問に答えたり薬を飲む時間を教えてくれたりするよ。
+
+## NPC5 Dialogue (Transport)
+dialogue.NPC5=AIは交通のいろんな面で私たちを助けてくれるんだ。自動運転車を動かしたり、信号を管理して渋滞を減らしたり、バスや電車が時間通りに走るようにしたりね。AIは事故を素早く検知して安全性を高めたり、配達ドローンを制御して荷物を届けたりもするよ。
+
+## NPC6 Dialogue (Art)
+dialogue.NPC6=AIはアートの世界に大きな影響を与えているわ。AIはたくさんの絵から学んで、自分で作品を作ることができるの。人間のアーティストに新しいアイデアを提案したり、作品をよくするための作業を手伝ったりもできるわ。AIは古い傷んだ絵を修復したり、あなたの動きに合わせて変化するインタラクティブアートを作ったりもできるのよ。
+
+## TpBot Dialogue (TpBot)
+dialogue.TpBot=どこにでも連れて行ってあげるよ！下のボタンを押してね！
+
+## NPC7 Dialogue ()
+dialogue.NPC7=
+
+## NPC8 Dialogue ()
+dialogue.NPC8=
+
+## NPC9 Dialogue ()
+dialogue.NPC9=
+
+## NPC10 Dialogue ()
+dialogue.NPC10=
+
+## NPC11 Dialogue ()
+dialogue.NPC11=
+
+## NPC12 Dialogue ()
+dialogue.NPC12a=
+
+## NPC BUTTONS
+dialogue.button.1=次へ
+dialogue.button.2=美術館
+dialogue.button.3=庭園
+dialogue.button.4=ホーム
+dialogue.button.5=病院
+dialogue.button.6=建築開始！
+dialogue.button.7=完成！
+dialogue.button.8=OK！
+dialogue.button.9=もちろん！
+dialogue.button.10=AIジョブフェア
+dialogue.button.11=交通ハブ

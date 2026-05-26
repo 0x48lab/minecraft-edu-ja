@@ -1,0 +1,117 @@
+## Pack ##
+
+pack.name=レッスン リソースパック
+pack.description=レッスンに必要なリソースパック
+
+## NPC Names ##
+
+NPC.name.agent=エージェント
+NPC.name.activity1=アクティビティ 1 - 医師
+NPC.name.activity2=アクティビティ 2 - データサイエンティスト
+NPC.name.activity3=アクティビティ 3 - 機械学習エンジニア
+NPC.name.activity4=アクティビティ 4 - 研究者
+
+NPC.button.reset=§lリセット§r
+
+NPC.button.tryagain=§l§2もう一度やってみよう§r
+
+## Default Titles ##
+
+activity2.title.map=§6データセット完了！§r
+activity.title.pass=§6おめでとう！§r
+activity.title.right=§6正解§r
+activity.title.incorrect=§6不正解。§r
+activity.subtitle.incorrect=もう一度やってみよう。
+activity.title.none= §r
+
+activity.subtitle.part2=パート 2 に進もう。
+activity.subtitle.part3=パート 3 に進もう。
+
+activity.1of2.activity1=アクティビティ 1/2 完了。
+activity.2of2.activity3=レッスン完了。
+
+activity.1of3.activity1=アクティビティ 1/3 完了。
+activity.2of3.activity2=アクティビティ 2/3 完了。
+activity.3of3.activity3=レッスン完了。
+
+activity.1of4.activity1=アクティビティ 1/4 完了。
+activity.2of4.activity2=アクティビティ 2/4 完了。
+activity.3of4.activity3=アクティビティ 3/4 完了。
+activity.4of4.activity4=レッスン完了。
+
+activity1.title.location1=§6場所 1§r
+activity1.title.location2=§6場所 2§r
+activity1.title.location3=§6場所 3§r
+activity1.title.sample=§6水サンプルを採取しました！§r
+activity1.title.back=§6村に戻りました。§r
+
+activity2.title.live1=§6水サンプル 1 準備完了。§r
+activity2.title.live2=§6水サンプル 2 準備完了。§r
+activity2.title.live3=§6水サンプル 3 準備完了。§r
+activity2.title.live4=§6データセットを作成しよう。§r
+
+activity3.title.source1=§6汚染源 1 を発見！§r
+activity3.title.source2=§6汚染源 2 を発見！§r
+activity3.title.source3=§6汚染源 3 を発見！§r
+activity3.title.map=§6汚染場所を特定しました！§r
+
+activity4.title.location1=§6下水管。§r
+activity4.title.location1Pass=§6汚染源を除去しました！§r
+activity4.title.location2=§6ゴミ捨て場。§r
+activity4.title.location2Pass=§6汚染源を除去しました！§r
+activity4.title.location3=§6工場の汚染。§r
+activity4.title.location3Pass=§6汚染源を除去しました！§r
+
+## Actionbar text ##
+
+start.actionbar.first=§l§f医師に話しかけよう。§r
+
+activity1.actionbar.pilot1=§l§fボートに乗り込もう。§r
+activity1.actionbar.pilot2=§l§fチェストからボトルを取り、水のサンプルを採取しよう。§r
+activity1.actionbar.pass1=§l§f道をたどってデータサイエンティストに話しかけよう。§r
+
+activity2.actionbar.data1=§l§f水サンプルをそれぞれのチェストに入れよう。§r
+activity2.actionbar.data2=§l§f[C]を押してコードを書こう。§r
+activity2.actionbar.pass2=§l§f道をたどって機械学習エンジニアに話しかけよう。§r
+
+activity3.actionbar.main=§l§f[C]を押してコードを書こう。§r
+activity3.actionbar.pass=§l§f桟橋にいる研究者に話しかけよう。§r
+
+activity4.actionbar.main=§l§fボートに乗り込もう。§r
+activity4.actionbar.location1=§l§fチェストからバナーを取り、金ブロックの上に置こう。§r
+activity4.actionbar.location2=§l§fチェストからバナーを取り、金ブロックの上に置こう。§r
+activity4.actionbar.location3=§l§fチェストからバナーを取り、金ブロックの上に置こう。§r
+activity4.actionbar.pass=§l§fレッスン終了。§r
+activity4.actionbar.reset=§l§fもう一度やってみよう。§r
+
+## NPC Text ##
+
+activity1.npc.line1=村の人々が体調を崩しています。水が汚染されているのではないかと疑っています。AIを使って汚染物質の発生源を見つけたいと思います。ボートに乗って、各場所でチェストの水ボトルを使って、データベース用の水サンプルを採取してください。
+
+activity2.npc.line1=周辺の川から水サンプルを採取したので、処理用のチェストに入れてください。その後、各場所の水データを使って現在のデータセットをコーディングしましょう。
+
+activity3.npc.line1=汚染源を見つけるAIをコーディングする必要があります。前のアクティビティでコーディングした現在のデータセットを分析し、汚染物質の濃度が最も高い場所を特定しましょう。
+
+activity4.npc.line1=AIが汚染の発生源を特定したので、正しいか確認する必要があります。正しければ、これらの場所からの汚染を止めなければなりません。ボートに乗って各場所に行きましょう。
+
+activity41.npc.line1=よくやりました！AIのおかげで汚染を止めることができました。水はきれいになり、安全に飲めるようになりました！
+
+## Signs ##
+sign.one.activity2=§fデータサイエンティスト =>
+sign.screen.activity2=§lデータをインポート中...
+sign.two.activity3=§lAIでデータセットを処理中...
+sign.one.activity3=§l水質汚染源 1。
+sign.three.activity3=§l水質汚染源 2。
+sign.four.activity3=§l水質汚染源 3。
+activity.npc.reset=§lレッスンをリセット
+
+## Board Text ##
+
+activity.board.line1=§f データサイエンティスト =>
+activity.board.line2=§f 機械学習エンジニア =>
+activity.board2.line2=§f<= 機械学習エンジニア
+activity.board.line3=§f 研究者 =>
+activity.board.line4=    センサー 1
+activity.board.line5=    センサー 2
+activity.board.line6=    センサー 3
+activity.board.line7=    センサー 4

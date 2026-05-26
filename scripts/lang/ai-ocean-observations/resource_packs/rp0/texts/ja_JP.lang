@@ -1,0 +1,99 @@
+## Pack ##
+
+pack.name=レッスン リソースパック
+pack.description=レッスンに必要なリソースパック
+
+## NPC Names ##
+
+NPC.name.agent=エージェント
+NPC.name.activity1=アクティビティ 1 - 生物学者
+NPC.name.activity2=アクティビティ 2 - データサイエンティスト
+NPC.name.activity3=アクティビティ 3 - 機械学習エンジニア
+NPC.name.activity4=アクティビティ 4 - 研究者
+
+NPC.button.reset=§lリセット§r
+
+NPC.button.tryagain=§l§2もう一度やってみよう§r
+
+## Default Titles ##
+
+activity2.title.map=§6データセット完了！§r
+activity.title.pass=§6おめでとう！§r
+activity.title.right=§6正解§r
+activity.title.incorrect=§6不正解。§r
+activity.subtitle.incorrect=もう一度やってみよう。
+
+activity.subtitle.part2=パート 2 に進もう。
+activity.subtitle.part3=パート 3 に進もう。
+
+activity.1of2.activity1=アクティビティ 1/2 完了。
+activity.2of2.activity3=レッスン完了。
+
+activity.1of3.activity1=アクティビティ 1/3 完了。
+activity.2of3.activity2=アクティビティ 2/3 完了。
+activity.3of3.activity3=レッスン完了。
+
+activity.1of4.activity1=アクティビティ 1/4 完了。
+activity.2of4.activity2=アクティビティ 2/4 完了。
+activity.3of4.activity3=アクティビティ 3/4 完了。
+activity.4of4.activity4=レッスン完了。
+
+activity3.title.map=§6海底地形マップが生成されました！§r
+
+activity1.title.location1=§6センサー 1 が起動しました。§r
+activity1.title.location2=§6センサー 2 が起動しました。§r
+activity1.title.location3=§6センサー 3 が起動しました。§r
+activity1.title.location4=§6センサー 4 が起動しました。§r
+
+activity2.title.live1=§6センサー 1 がライブ稼働中。§r
+activity2.title.live2=§6センサー 2 がライブ稼働中。§r
+activity2.title.live3=§6センサー 3 がライブ稼働中。§r
+activity2.title.live4=§6センサー 4 がライブ稼働中。§r
+
+activity4.title.location1=エージェントはセンサー 2 と 4 にのみ向かう必要があります。
+activity4.title.location2=§6エージェントがセンサー 2 に到達しました。§r
+activity4.title.location4=§6エージェントがセンサー 4 に到達しました。§r
+
+## Actionbar text ##
+
+start.actionbar.first=§l§f生物学者に話しかけよう。§r
+
+activity1.actionbar.pilot1=§l§fチェストからセンサーを取り、海底に設置しよう。§r
+activity1.actionbar.pilot2=§l§f海底の金ブロックの上に4つのセンサーを設置しよう。§r
+activity1.actionbar.pass1=§l§f船に戻ってデータサイエンティストに話しかけよう。§r
+
+activity2.actionbar.data1=§l§f[C]を押してコードを書こう。§r
+activity2.actionbar.pass2=§l§f機械学習エンジニアに話しかけよう。§r
+
+activity3.actionbar.main=§l§f[C]を押してコードを書こう。§r
+activity3.actionbar.pass=§l§f研究者に話しかけよう。§r
+
+activity4.actionbar.main=§l§f[C]を押してコードを書こう。§r
+activity4.actionbar.location1=§l§fボタンを使って水中を見てみよう。§r
+activity4.actionbar.pass=§l§fレッスン終了。§r
+activity4.actionbar.reset=§l§fもう一度やってみよう。§r
+
+## NPC Text ##
+
+activity1.npc.line1=やあ！私たちはサンゴ礁のそばの船にいます。気候変動がサンゴに与える影響を研究したいと思っています。この礁は複雑な生態系で、考慮すべきデータが大量にあります。AIを構築したいのですが、まずデータセットを作る必要があります。チェストからセンサーを取り出して、海底の金ブロックの上に設置してください。
+
+activity2.npc.line1=すべてのセンサーが稼働したので、入ってくるデータでデータセットを作りましょう。センサーがリアルタイムで目の前の状況を報告しているので、ライブデータセットを作成します。4つのセンサーのデータストリームを1つのライブデータセットにまとめるコードを書いてください。
+
+activity3.npc.line1=ライブデータが入ってきているので、サンゴ礁の研究を始められます。ただし、センサーが故障するたびに水中に潜りたくはありません。AIを使えば、エージェントがセンサーに到達して自動修理できるようにコーディングできます。収集中のライブデータを使った自律ナビゲーションで実現しましょう。AIをコーディングしましょう！
+
+activity4.npc.line1=AIが正しいルートを生成したか確認する必要があります。エージェントを2番目と4番目のセンサーに向かわせてテストしましょう。コードを実行すると、水中のサンゴ礁の地形が仮想的に表示され、エージェントの動きがよく見えます！
+
+## Signs ##
+sign.one.activity2=§lデータをインポート中...
+sign.two.activity3=§lAIでデータセットをスキャン中...
+activity.npc.reset=§lレッスンをリセット
+
+## Board Text ##
+
+activity.board.line1=§f データサイエンティスト =>
+activity.board.line2=§f 機械学習エンジニア =>
+activity.board.line3=§f 研究者 =>
+activity.board.line4=    センサー 1
+activity.board.line5=    センサー 2
+activity.board.line6=    センサー 3
+activity.board.line7=    センサー 4

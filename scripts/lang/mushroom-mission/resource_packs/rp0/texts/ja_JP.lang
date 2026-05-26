@@ -1,0 +1,136 @@
+pack.name=マッシュルームの森アドベンチャー
+pack.description=CrackedCubes 制作
+
+entity.cc:trophy.name=トロフィー
+item.cc:trophy.name=トロフィー
+
+## ==================================
+
+
+npc.welcome_npc1.name=ポルトベッロ
+
+npc.welcome_npc1.pt1.line1=やっと目が覚めたね。マッシュルームの森へようこそ。きのう大嵐がこの森を通り過ぎたあと、きみを見つけたんだ。
+npc.welcome.button.ok=つぎへ
+
+npc.welcome_npc1.pt2.line1=目が覚めたなら、バトン長老がきみと話をしたいそうだよ。この家の外にいるから会いに行ってみて。
+
+npc.welcome_npc1.pt3.line1=それから、空を飛べるようにしてあげるよ。カメラと、本と、ポートフォリオもあげるから、ここでの冒険を記録してね。ほしい？
+npc.welcome.button.yes=ほしい！
+npc.welcome.button.no=いらない
+
+npc.welcome_npc1.pt4.line1=はいどうぞ！
+npc.welcome.button.thanks=ありがとう
+
+## ==================================
+
+
+npc.welcome_npc2.name=バトン長老
+
+
+npc.welcome_npc2_pt1.line1=ようこそ、旅人さん。わしの家は大嵐に耐えたぞ。何時間も風が吹き荒れて、屋根が飛ばされそうじゃった。
+npc.button.welcome_npc2_pt1.ok=つぎへ
+
+npc.welcome_npc2_pt2.line1=じゃが、この森のみんながわしのように幸運だったわけではない。この小道を進んだ先にあるキノコ村は、嵐の直撃を受けて、カミナリでひどい被害を受けたんじゃ。
+npc.button.welcome_npc2_pt2.ok=つぎへ
+
+npc.welcome_npc2_pt3.line1=村にはおぬしのような建築家が必要なのじゃ。被害を修理するのを手伝ってくれんかのう？
+npc.button.welcome_npc2_pt3.yes=もちろんです
+npc.button.welcome_npc2_pt3.no=今はちょっと…
+
+npc.welcome_npc2_pt4.line1=ありがとう、友よ。がんばってな！ またこの森に来ることがあったら、ぜひ声をかけてくれ。
+
+npc.button.welcome_npc2_pt4.ok=わかりました
+## ==================================
+
+npc.bridge_npc1.name=チェスナット
+
+npc.bridge_npc1_pt1.line1=来てくれたんだね！ きみの建築スキルが必要なんだ。見てのとおり、ちょっと困っていてね。
+npc.bridge_npc1_pt1.ok=つぎへ
+
+npc.bridge_npc1_pt2.line1=大嵐で古い橋がくずれてしまったんだ。村人たちが行き来できるように、新しい橋を建て直さないといけない。
+npc.bridge_npc1_pt2.ok=つぎへ
+
+npc.bridge_npc1_pt3.line1=嵐にも負けないくらいがんじょうな、新しい橋を作ってくれないかな？
+npc.bridge_npc1_pt3.yes=もちろん！
+npc.bridge_npc1_pt3.no=今はちょっと…
+
+npc.bridge_npc1_pt4.line1=うれしいよ！ どんな橋を作ってくれるか楽しみだな。
+npc.bridge_npc1_pt4.ok=つぎへ
+
+npc.bridge_npc1_pt5.line1=お手本の橋を見せるけど、まったく同じに作る必要はないよ。きみだけのオリジナル橋をデザインしてね。お手本は参考にするだけでOK。
+npc.bridge_npc1_pt5.ok=つぎへ
+
+npc.bridge_npc1_pt6.line1=新しい橋が完成したら、橋を渡って反対側にいるワイルド長老に会いに行ってね。きっとごほうびをくれるよ。
+npc.bridge_npc1_pt6.ok=わかった！
+
+## ==================================
+
+
+
+
+npc.bridge_elder.name=ワイルド長老
+
+npc.bridge_elder_pt1.line1=会えてうれしいよ。橋は完成したかい？
+npc.bridge_elder_pt1.yes=完成しました！
+npc.bridge_elder_pt1.no=まだです
+
+npc.bridge_elder_pt2.line1=すばらしい知らせじゃ！ こんなに立派でがんじょうな橋を作ってくれて、本当にありがとう。つぎの大嵐が来ても、この橋はびくともしないじゃろう。感謝のしるしに、村からトロフィーを贈るぞ。
+npc.bridge_elder_pt2.ok=ありがとう！
+
+npc.bridge_elder_pt3.line1=さて……もう少しだけ、きみの建築の腕を借りてもいいかのう？ 見ての通り、大嵐は橋だけでなくほかにも被害を出したのじゃ。
+npc.bridge_elder_pt3.ok=つぎへ
+
+npc.bridge_elder_pt4.line1=嵐でキノコの家の屋根も壊れてしまった。壊れた家の屋根を修理して、できればもう1つ、きみのオリジナルの家も建ててくれんかのう？
+npc.bridge_elder_pt4.yes=もちろんです！
+npc.bridge_elder_pt4.no=今はちょっと…
+
+npc.bridge_elder_pt5.line1=無理はしなくていいぞ。時間は限られておるからな。まずは村の広場に行って、そこで手伝ってくれ。
+npc.bridge_elder_pt5.ok=わかりました！
+
+
+## ==================================
+
+
+
+npc.villager_npc1.name=ライオンのたてがみ
+
+npc.villager_npc1_pt1.line1=建築が得意な人が来てくれたんだね！ わたしの家を直してくれない？ 大嵐で屋根がふき飛ばされちゃって、新しい屋根をどうデザインしたらいいかわからないの。
+npc.villager_npc1_pt1.ok=つぎへ
+
+npc.villager_npc1_pt2.line1=つぎの嵐にも耐えられるくらい、がんじょうな屋根を作ってくれない？
+npc.villager_npc1_pt2.ok=手伝うよ！
+
+npc.villager_npc1_pt3.line1=やったー！ ありがとう！ きみは本当に村の友だちだね。新しい屋根が完成したら、また話しかけてね。
+npc.villager_npc1_pt3.ok=もちろん！
+
+npc.villager_npc1_pt4.line1=屋根の修理は終わった？
+npc.villager_npc1_pt4.yes=完成したよ！
+npc.villager_npc1_pt4.no=まだだよ
+
+npc.villager_npc1_pt5.line1=とってもがんじょうそう。すばらしい仕事をしてくれたね。家を直してくれて本当にありがとう。
+npc.villager_npc1_pt5.ok=つぎへ
+
+npc.villager_npc1_pt6.line1=きみは村の本当の友だちだよ。感謝のしるしに、もうひとつキノコのトロフィーをあげるね！
+npc.villager_npc1_pt6.ok=ありがとう！
+
+## ==================================
+
+
+
+npc.villager_npc2.name=キングトランペット
+
+npc.villager_npc2_pt1.line1=見てのとおり、わたしのすてきだった家はもう何も残っていないの。きみの建築スキルで、前よりもっといい家を建ててくれないかしら？ また大嵐が来てもだいじょうぶなくらい、がんじょうに作ってほしいの。
+npc.villager_npc2_pt1.ok=手伝うよ！
+
+npc.villager_npc2_pt2.line1=うれしい！ ありがとう！ 新しい家のデザインと建築が終わったら、また話しかけてね。
+npc.villager_npc2_pt2.ok=わかった！
+
+npc.villager_npc2_pt3.line1=家の建築は終わった？
+npc.villager_npc2_pt3.no=まだだよ
+npc.villager_npc2_pt3.yes=完成したよ！
+
+npc.villager_npc2_pt4.line1=なんてすばらしい建物なの！ どんな嵐が来ても絶対にびくともしなさそうね。家の設計と建築を手伝ってくれて、本当にありがとう。
+npc.villager_npc2_pt4.ok=つぎへ
+
+npc.villager_npc2_pt5.line1=きみは村の本当の友だちだよ。感謝のしるしに、もうひとつキノコのトロフィーをあげるね！
+npc.villager_npc2_pt5.ok=ありがとう！

@@ -1,0 +1,8 @@
+pack.name=ゴールドレース RP
+pack.description=Cleverlike 制作
+entity.race_starter.name=ブロックビアード
+before_race.race_starter.intro1=ブロックビアードのゴールドランへようこそ！これはMinecraftの知識とスキルを試すタイムレースだ。最も賢いプレイヤーだけがレースに勝ってゴールドを手に入れられるぞ。レースを開始したら、各チェックポイントを通過してゴールを目指せ。レース中いつでも使えるアイテムがもらえるぞ。頑張れ！
+dialogue.button.start_race=レース開始！
+during_race.race_starter.text1=行け！！！レースが始まったぞ。各チェックポイントに最速で到達する方法を見つけてレースを完走しよう。インベントリのアイテムを使って、途中にある役立つアイテムが入ったチェストも探してみろ。さあ急げ。時間は待ってくれないぞ！
+
+dialogue.button.race=了解

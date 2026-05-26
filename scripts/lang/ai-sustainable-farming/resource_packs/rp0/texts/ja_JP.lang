@@ -1,0 +1,101 @@
+## Pack ##
+
+pack.name=レッスン リソースパック
+pack.description=レッスンに必要なリソースパック
+
+## NPC Names ##
+
+NPC.name.agent=エージェント
+NPC.name.activity1=アクティビティ 1 - 農業専門家
+NPC.name.activity2=アクティビティ 2 - データサイエンティスト
+NPC.name.activity3=アクティビティ 3 - 機械学習エンジニア
+NPC.name.activity4=アクティビティ 4 - 研究者
+NPC.name.farmer=農家§r
+
+NPC.button.reset=§lリセット§r
+
+NPC.button.tryagain=§l§2もう一度やってみよう§r
+
+## Default Titles ##
+
+activity2.title.map=§6データセット完了！§r
+activity.title.pass=§6おめでとう！§r
+activity.title.right=§6正解§r
+activity.title.incorrect=§6不正解。§r
+activity.subtitle.incorrect=もう一度やってみよう。
+
+activity.subtitle.part2=パート 2 に進もう。
+activity.subtitle.part3=パート 3 に進もう。
+
+activity.1of2.activity1=アクティビティ 1/2 完了。
+activity.2of2.activity3=レッスン完了。
+
+activity.1of3.activity1=アクティビティ 1/3 完了。
+activity.2of3.activity2=アクティビティ 2/3 完了。
+activity.3of3.activity3=レッスン完了。
+
+activity.1of4.activity1=アクティビティ 1/4 完了。
+activity.2of4.activity2=アクティビティ 2/4 完了。
+activity.3of4.activity3=アクティビティ 3/4 完了。
+activity.4of4.activity4=レッスン完了。
+
+activity1.title.location1=§6衛星ビーコン 1 が起動しました。§r
+activity1.title.location2=§6衛星ビーコン 2 が起動しました。§r
+activity1.title.location3=§6衛星ビーコン 3 が起動しました。§r
+activity1.title.location4=§6衛星ビーコン 4 が起動しました。§r
+activity1.title.location5=§6衛星ビーコン 5 が起動しました。§r
+
+activity2.title.start=§6衛星制御センター。§r
+activity2.title.live1=§6衛星との接続が確立しました。§r
+activity2.title.live2= §r
+
+activity3.title.map=§6AI - 最適な農地を検索中。§r
+activity3.title.map2=§6場所 2 と 5 が見つかりました。§r
+
+activity4.title.start=§6村に到着。
+activity4.title.location1=作物は正しい区画でのみ育てるべきです。
+activity4.title.location2=作物が順調に育っています。
+
+## Actionbar text ##
+
+start.actionbar.first=§l§f農業専門家に話しかけよう。§r
+
+activity1.actionbar.pilot1=§l§fチェストから衛星ビーコン5個を取り、金ブロックの上に置こう。§r
+activity1.actionbar.pilot2=§l§f衛星ビーコン5個を金ブロックの上に置こう。§r
+activity1.actionbar.pass1=§l§fジープに乗り込もう。§r
+
+activity2.actionbar.start=§l§fデータサイエンティストに話しかけよう。§r
+activity2.actionbar.data1=§l§f[C]を押してコードを書こう。§r
+activity2.actionbar.data2= §r
+activity2.actionbar.pass2=§l§f建物の中に入って機械学習エンジニアに話しかけよう。§r
+
+activity3.actionbar.main=§l§f[C]を押してコードを書こう。§r
+activity3.actionbar.pass=§l§f研究者に話しかけよう。§r
+
+activity4.actionbar.main=§l§f正しい区画に行って、金ブロックのボタンを押そう。§r
+activity4.actionbar.location1=§l§fボタンを使って水中を見てみよう。§r
+activity4.actionbar.pass=§l§fレッスン終了。§r
+activity4.actionbar.reset=§l§fもう一度やってみよう。§r
+
+## NPC Text ##
+
+activity1.npc.line1=やあ！ここは辺境にある村です。この村の人々は農業でうまく収穫ができずに困っています。だから私たちがここに来ました。AIと予測分析を使って、最適な農地の場所を見つけましょう。村の周りにある金ブロックの上に衛星ビーコンを置いてください。
+
+activity2.npc.line1=こんにちは！衛星ビーコンをすべて設置したので、次は衛星を制御して、送られてくる情報から現在のデータセットをコーディングする必要があります。
+
+activity3.npc.line1=最適な栽培場所を見つけるAIをコーディングする必要があります。予測分析を使います。前のアクティビティで作成した現在のデータセットを、衛星ステーションが既に持っている過去のデータセットと比較しましょう。
+
+activity4.npc.line1=AIが最適な農地を予測したので、AIが正しかったか確認しに行きましょう。正しい区画に行って、金ブロックのボタンを押して農家に栽培するよう伝えてください。
+
+farmer.npc.line1=この区画で作物を育ててみるべきですか？
+
+## Signs ##
+sign.one.activity2=§lデータをインポート中...
+sign.two.activity3=§lAIでデータセットをスキャン中...
+activity.npc.reset=§lレッスンをリセット
+
+## Board Text ##
+
+activity.board.line1=§f データサイエンティスト =>
+activity.board.line2=§f 機械学習エンジニア =>
+activity.board.line3=§f 研究者 =>

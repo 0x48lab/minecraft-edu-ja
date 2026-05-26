@@ -1,0 +1,240 @@
+pack.name=クリエイティブ・コロシアム
+pack.description=Cleverlike Studios 制作
+
+action.hint.exit.cleverlike:scenerider=§r
+28061969=§r
+action.interact.changetime=ラウンド時間を変更
+
+item.cleverlike:adminkey.name=管理者キー
+item.cleverlike:adminkey=管理者キー
+
+## Buttons
+button.close=閉じる
+button.returntolobby=ロビーに戻る
+button.reset=リセット
+button.confirm=確認
+button.cancel=キャンセル
+button.next=次へ
+button.start=スタート
+button.yes=はい
+button.no=いいえ
+
+button.pickred=赤チ���ム
+button.pickorange=オレンジチーム
+button.pickyellow=黄チーム
+button.pickgreen=緑チーム
+button.pickblue=青チーム
+button.pickpurple=紫チーム
+
+button.pickteam=チームを選ぶ
+button.spectate=観戦
+c.c=§
+button.minus10min=§r- 10分
+button.minus5min=§r- 5分
+button.minus1min=§r- 1分
+button.plus10min=§r+ 10分
+button.plus5min=§r+ 5分
+button.plus1min=§r+ 1分
+button.resetbuild=建築をリセット
+button.timer=タイマー
+button.startgame=§0ゲーム開始
+button.resetteams=チームリセット
+button.none=なし
+button.setbuildtimer=建築タイマー設定
+button.getadminkey=管理者キーを取得
+button.joinateam=チームに参加
+button.endround=ラウンド終了
+button.changetimer=タイマー変更
+button.exportbuilds=建築をエクスポート
+button.votered=赤チームに投票
+button.voteorange=オレンジチームに投票
+button.voteyellow=黄チームに投票
+button.votegreen=緑チームに投票
+button.voteblue=青チームに投票
+button.votepurple=紫チームに投票
+button.pickwinner=勝者を選ぶ
+button.addtime=時間を追加
+button.resumegame=ゲーム再開
+button.redwins=赤チームの勝ち
+button.orangewins=オレンジチームの勝ち
+button.yellowwins=黄チームの勝ち
+button.greenwins=緑チームの勝ち
+button.bluewins=青チームの勝ち
+button.purplewins=紫チームの勝ち
+button.clearinventory=インベントリをクリア
+button.manageteams=プレイヤー管理
+button.gatherplayers=プレイヤーを戻す
+
+button.redfirst=赤チームの勝ち
+button.orangefirst=オレンジチームの勝ち
+button.yellowfirst=黄チームの勝ち
+button.greenfirst=緑チームの勝ち
+button.bluefirst=青チームの勝ち
+button.purplefirst=紫チームの勝ち
+
+button.redsecond=赤チームの勝ち
+button.orangesecond=オレンジチームの勝ち
+button.yellowsecond=黄チームの勝ち
+button.greensecond=緑チームの勝ち
+button.bluesecond=青チームの勝ち
+button.purplesecond=紫チームの勝ち
+
+button.redthird=赤チームの勝ち
+button.orangethird=オレンジチームの勝ち
+button.yellowthird=黄チームの勝ち
+button.greenthird=緑チームの勝ち
+button.bluethird=青チームの勝ち
+button.purplethird=紫チームの勝ち
+
+button.reselect=選び直す
+button.tryagain=もう一度
+
+## Entity Names
+pickteam.name=チーム選択
+rednpc.name=赤チーム
+orangenpc.name=オレンジチーム
+yellownpc.name=黄チーム
+greennpc.name=緑チーム
+bluenpc.name=青チーム
+purplenpc.name=紫チーム
+settings.name=設定
+registration.table.name=受付
+referee.lobby.name=審判
+judges.table.name=審査員
+## Titles
+
+title.changedteam=チーム決定！
+subtitle.red=§c赤チーム§rに参加しました！
+subtitle.orange=§6オレンジチーム§rに参加しました！
+subtitle.yellow=§e黄チーム§rに参加しました！
+subtitle.green=§a緑チーム§rに参加しました！
+subtitle.blue=§b青チーム§rに参加しました！
+subtitle.purple=§d紫チーム§rに��加しました！
+
+subtitle.spectator=観戦モードになりました！
+
+
+title.starting.5=§f5
+title.starting.4=§f4
+title.starting.3=§f3
+title.starting.2=§f2
+title.starting.1=§f1
+subtitle.lobby.starting=秒後にゲーム開始！
+subtitle.lobby.starting1=秒後にゲーム開始！
+subtitle.lobby.ending=秒残り！
+subtitle.lobby.ending1=秒残り！
+
+title.game.start=スタート！
+
+title.timer.warning=!
+subtitle.timer.1min=残り1分
+subtitle.timer.30sec=残り30秒！
+
+title.game.end=時間切れ！
+
+subtitle.congratulations=勝利チームおめでとう！
+title.redteam=§c赤チームの勝利！
+title.orangeteam=§6オレンジチームの勝利！
+title.yellowteam=§e黄チームの勝利！
+title.greenteam=§a緑チームの勝利！
+title.blueteam=§b青チームの勝利！
+title.purpleteam=§d紫チームの勝利！
+
+
+## Actionbars
+actionbar.lobby.team.spectator=現在観戦モードです！
+actionbar.lobby.team.red=§c赤チーム§rに所属しています！
+actionbar.lobby.team.orange=§6オレンジチーム§rに所属しています！
+actionbar.lobby.team.yellow=§e黄チーム§rに所属しています！
+actionbar.lobby.team.green=§a緑チーム§rに所属しています！
+actionbar.lobby.team.blue=§b青チーム§rに所属しています！
+actionbar.lobby.team.purple=§d紫チーム§rに所属しています！
+actionbar.lobby.host.timer1=ラウンド時間：
+actionbar.lobby.host.timer2=:00
+actionbar.lobby.host.timer3=準備ができたらテーブルに戻ってください
+actionbar.lobby.host.registrationtable=受付テーブルに来てください
+actionbar.lobby.host.judgestable=時間切れ���審査員のところへ
+actionbar.lobby.team.judging=時間切れ！審査開始
+actionbar.game.timer1=タイマー：
+actionbar.game.timer2=:
+actionbar.game.timer3=:0
+## Boards
+
+## Chats
+chat.warning.maxgametime=ゲーム時間は最大90分です。
+chat.warning.mingametime=ゲーム時間は最低1分です。
+
+chat.lobby.team.red= が§c赤チーム§rに参加しました！
+chat.lobby.team.orange= が§6オレンジチーム§rに参加しました！
+chat.lobby.team.yellow= が§e黄チーム§rに参加しました！
+chat.lobby.team.green= が§a緑チーム§rに参加しました！
+chat.lobby.team.blue= が§b青チーム§rに参加しました！
+chat.lobby.team.purple= が§d紫チーム§rに参加しました！
+chat.lobby.team.reset=全プレイヤーのチームがリセットされました！
+
+chat.round.reset.red=§r が赤チームの建築プレートをリセットしました
+chat.round.reset.orange=§r がオレンジチームの建築プレートをリセットしました
+chat.round.reset.yellow=§r が黄チームの建築プレートをリセットしました
+chat.round.reset.green=§r が緑チームの建築プレートをリセットしました
+chat.round.reset.blue=§r が青チームの建築プレートをリセットしました
+chat.round.reset.purple=§r が紫チームの建築プレートをリセットしました
+
+## Dialogue
+lobby.pickteam.active=チームに参加しますか？それとも観戦しますか？
+lobby.pickteam.active2=どちらのチームに参加しますか？
+lobby.pickteam.active6=どちらのチームに参加しますか？
+
+game.rednpc.active=チームの建築をリセットしたい場合は、下の「建築をリセット」ボタンをクリックしてください。%1%1また、「インベントリをクリア」ボタンで自分のインベントリをクリアできます。
+game.rednpc.resetconfirmation=本当に建築全体をリセットしますか？この操作は取り消せません！
+game.rednpc.fakereset=おい、あなたは赤チームじゃないでしょ！彼らの建築をリセットしたら怒られるよ！
+
+game.orangenpc.active=チームの建築をリセットしたい場合は、下の「建築をリセット」ボタンをクリックしてください。%1%1また、「インベントリをクリア」ボタンで自分のインベントリをクリアできます。
+game.orangenpc.resetconfirmation=本当に建築全体をリセットしますか？この操作は取り消せません！
+game.orangenpc.fakereset=おい、あなたはオレンジチームじゃないでしょ！彼らの建築をリセットしたら怒られるよ！
+
+game.yellownpc.active=チームの建築をリセットしたい場合は、下の「建築をリセット」ボタンをクリックしてください。%1%1また、「インベントリをクリア」ボタンで自分のインベントリをクリアできます。
+game.yellownpc.resetconfirmation=本当に建築全体をリセットしますか？この操作は取り消せません！
+game.yellownpc.fakereset=おい、あなたは黄チームじゃないでしょ！彼らの建築をリセットしたら怒られるよ！
+
+game.greennpc.active=チームの建築をリセットしたい場合は、下の「建築をリセット」ボタンをクリックしてください。%1%1また、「インベントリをクリア」ボタンで自分のインベントリをクリアできます。
+game.greennpc.resetconfirmation=本当に建築全体をリセットしますか？この操作は取り消せません！
+game.greennpc.fakereset=おい、あなたは緑チームじゃないでしょ！彼らの建築をリセットしたら怒られるよ！
+
+game.bluenpc.active=チームの建築をリセットしたい場合は、下の「建築をリセット」ボタンをクリックしてください。%1%1また、「インベントリをクリア」ボタンで自分のインベントリをクリアできます。
+game.bluenpc.resetconfirmation=本当に建築全体をリセットしますか？この操作は取り消せません！
+game.bluenpc.fakereset=おい、あなたは青チームじゃないでしょ！彼らの建築をリセットしたら怒られるよ！
+
+game.purplenpc.active=チームの建築をリセットしたい場合は、下の「建築をリセット」ボタンをクリックしてください。%1%1また、「インベントリをクリア」ボタンで自分のインベントリをクリアできます。
+game.purplenpc.resetconfirmation=本当に建築全体をリセットしますか？この操作は取り消せません！
+game.purplenpc.fakereset=おい、あなたは紫チームじゃないでしょ！彼らの建築をリセットしたら怒られるよ！
+
+registration.table.intro=受付テーブルへようこそ！%1%1試合の準備を手伝いましょう。%1%1「次へ」をクリックして、設定の調整、チーム選択、建築バトルの準備をしましょう！
+registration.table.player=観戦しますか？それともチームに参加しますか？
+registration.table.player.pickteam=どちらのチームに参加しますか？
+registration.table.admin=下のボタンで建築タイマーの設定、プレイヤーの呼び戻し、チームのリセットができます。%1管理者キーを使ってプレ��ヤーに話しかけると、管理者権限を切り替えられます。%1タイマーとチームの準備ができたら、「ゲーム開始」ボタンでラウンドを始めましょう。
+registration.table.admin.resetteams=本当に全プレイヤーを観戦者に戻しますか？
+registration.table.admin.pickteam=どちらのチームに参加しますか？
+registration.table.admin.startgame=ゲームを開始しますか？タイマーが設定され、プレイヤーが正しいチームに参加していることを確認してください。
+registration.table.admin.manageteams=全プレイヤーを観戦者に戻してチームを再選択させるか、全プレイヤーを受付テーブルに戻すことができます。
+
+referee.lobby.intro=ゲームが進行中です！チームが頑張っているといいですね！%1%1管理者の方は、ラウンドタイマーの調整やラウンドの早期終了のお手伝いができます。
+referee.lobby.admin=ここでラウンドを早期終了するか、残り時間を変更できます！
+referee.lobby.admin.endround=本当にラウンドを早期終了しますか？
+
+judges.table.intro=勝者を選ぶ時間です！%1%1管理者は「次へ」をクリックして勝者を選んだり、時間を追加したり、建築のエクスポート機能を解放できます。%1%1観戦者は「次へ」をクリックしてファン投票ができます。
+judges.table.player=ホストがエクスポートオプションを有効にしている場合、ストラクチャーブロックを使って建築をエクスポートできます！
+judges.table.player.exportnotunlocked=ホストがまだエクスポートオプションを有効にしていません！後でもう一度試してください！
+judges.table.spectator=一番気に入った建築に投票してください！
+judges.table.admin=ここで勝者を選べます！%1また、時間を追加してゲームを再開したり、建築のエクスポート機能を解放したりもできます！
+judges.table.admin.addtime=ゲームを再開しますか？それとも勝者を選んでラウンドを終了しますか？
+judges.table.admin.pickwinner=どのチームを勝者にしますか？このチームが今回のラウンドで金メダルを獲得し、1位になります！
+judges.table.admin.pickwinner2=次点のチームはどこですか？このチームが今回のラウンドで銀メダルを獲得し、2位になります！
+judges.table.admin.pickwinner3=表彰台最後のチームはどこですか？このチームが今回のラウンドで銅メダルを獲得し、3位になります！
+judges.table.admin.endround=1位、2位、3位のチームが正しいか確認してください。選び直すことも、現在の選択を確定することもできます。この決定は最終的なもので、ラウンドが完全に終了します。%1建築は新しいラウンドが始まるまで残ります。
+judges.table.export=新しいラウンドを始める前に建築をエクスポートするのもまだ間に合います！新しいラウンドを開始すると、建築エリアはクリアされ、現在の建築は削除されます。
+
+judges.table.admin.alreadychosen=おっと！すでに別の順位で選んだチームを選ぼうとしたようです。勝者選択の最初に戻ってもう一度やり直しましょう。
+
+registration.table.notnow=現在のラウンドの登録は締め切られ、ラウンドが進行中です。審査が完了し勝者が選ばれたら、新しいラウンドの開始をお手伝いできます。
+referee.lobby.notnow=こんにちは、審判です！%1%1建築フェーズ中、タイマーを見守っています。%1%1ラウンド中、管理者は私に話しかけてラウンドタイマーの変更やラウンドの早期終了ができます！
+judges.table.notnow=ラウンド終了時、管理者は私に話しかけて勝者の選出、時間の追加、建築エクスポート機能の解放ができます。%1観戦者はラウンド終了時に私に話しかけてファン投票ができます。
