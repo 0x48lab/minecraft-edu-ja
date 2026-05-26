@@ -459,7 +459,8 @@ function matchesSearch(world, query) {
     world.title_en.toLowerCase().includes(q) ||
     world.description.toLowerCase().includes(q) ||
     world.tags.some(t => t.toLowerCase().includes(q)) ||
-    (world.author && world.author.toLowerCase().includes(q))
+    (world.author && world.author.toLowerCase().includes(q)) ||
+    (world.aliases && world.aliases.some(a => a.toLowerCase().includes(q)))
   );
 }
 

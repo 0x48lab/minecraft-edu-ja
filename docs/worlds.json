@@ -195,8 +195,9 @@
     "id": "creative-coliseum",
     "title": "クリエイティブ・コロシアム",
     "title_en": "Creative Coliseum",
-    "description": "6チーム対抗の建築バトル。金銀銅の表彰台で勝者を決定する。",
+    "description": "6チーム対抗の建築バトル。金銀銅の表彰台で勝者を決定する。Build Battle EDUとして使用。",
     "tags": ["建築バトル"],
+    "aliases": ["Build Battle EDU", "ビルドバトル"],
     "has_coding": false,
     "author": "Cleverlike Studios",
     "filename": "Creative Coliseum.mcworld",
@@ -408,15 +409,16 @@
     "translated_date": "2026-05-26"
   },
   {
-    "id": "redstone-mansion",
-    "title": "レッドストーン マンション",
-    "title_en": "Redstone Mansion",
-    "description": "レッドストーン回路を使った仕掛けが満載のマンションを探索。",
-    "tags": ["レッドストーン"],
+    "id": "inspiration-island",
+    "title": "インスピレーション・アイランド",
+    "title_en": "Inspiration Island",
+    "description": "浮遊テーマパーク「インスピレーション・アイランド」でクリエイティブモードの基礎を楽しく学ぶ。建築チャレンジが満載。",
+    "tags": ["建築", "入門"],
     "has_coding": false,
     "author": "",
     "filename": "レッドストーン マンション.mcworld",
     "asset_name": "Redstone.Mansion.mcworld",
+    "aliases": ["Inspiration Island", "レッドストーン マンション"],
     "translated_date": "2026-05-26"
   },
   {
@@ -456,15 +458,16 @@
     "translated_date": "2026-05-26"
   },
   {
-    "id": "blocks-of-grass",
-    "title": "草ブロック",
-    "title_en": "Blocks of Grass",
-    "description": "草ブロックをテーマにした入門建築ワールド。",
-    "tags": ["建築", "入門"],
+    "id": "redstone-road",
+    "title": "レッドストーン・ロード",
+    "title_en": "Redstone Road",
+    "description": "レッドストーン回路の仕組みを展示で学ぶ。入力→出力の基本を体験できる。",
+    "tags": ["レッドストーン", "入門"],
     "has_coding": false,
     "author": "",
     "filename": "草ブロック.mcworld",
     "asset_name": "Blocks.of.Grass.mcworld",
+    "aliases": ["Redstone Road", "草ブロック", "Blocks of Grass"],
     "translated_date": "2026-05-26"
   },
   {
